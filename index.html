@@ -33,7 +33,7 @@ Sarah Conway URI: http://sarahconway.com/
 						</div>
 					</div>
 				</header> -->
-
+				<!--
 				<div id='cssmenu'>
 				<ul>
 				   <li class="active"><a href='./index.html'><span>Home</span></a></li>
@@ -44,7 +44,41 @@ Sarah Conway URI: http://sarahconway.com/
 					 <li><a href='./gallery/gallery.html'><span>Gallery</span></a></li>
 				   <li class='last'><a href='./contact/contact.html'><span>Contact</span></a></li>
 				</ul>
-				</div>
+			</div>-->
+
+			<nav id="nav" role="navigation">
+	<a href="#nav" title="Show navigation">Show navigation</a>
+	<a href="#" title="Hide navigation">Hide navigation</a>
+	<ul class="clearfix">
+		<li class="active"><a href="./index.html">Home</a></li>
+		<li><a href="./about/about.html">About</a></li>
+		<li>
+			<a href="./destinations/destinations.html" aria-haspopup="true"><span>Destinations</span></a>
+			<ul>
+				<li><a href="./destinations/sandiego.html">San Diego</a></li>
+				<li><a href="./destinations/costarica.html">Costa Rica</a></li>
+				<li><a href="./destinations/hawaii.html">Hawaii</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="./adventures/adventures.html" aria-haspopup="true"><span>Adventures</span></a>
+			<ul>
+				<li><a href="?webdesign">Web Design</a></li>
+			</ul>
+		</li>
+		<li><a href="./fitness/fitness.html">Fitness</a></li>
+		<li><a href="./gallery/gallery.html">Gallery</a></li>
+		<li><a href="./contact/contact.html">Contact</a></li>
+	</ul>
+</nav>
+
+<script src="./assets/js/doubletaptogo.js"></script>
+<script>
+	$( function()
+	{
+		$( '#nav li:has(ul)' ).doubleTapToGo();
+	});
+</script>
 
 					<section class="module parallax parallax-1">
 						<span class="parallax img"><img src="./images/AdventurousCircle.png" alt="" /></span>

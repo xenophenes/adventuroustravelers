@@ -34,18 +34,40 @@ Sarah Conway URI: http://sarahconway.com/
 					</div>
 				</header> -->
 
-				<div id='cssmenu'>
-				<ul>
-					<li><a href='../index.html'><span>Home</span></a></li>
-					<li class="active"><a href='../about/about.html'><span>About</span></a></li>
-					<li><a href='../destinations/destinations.html'><span>Destinations</span></a></li>
-					<li><a href='../adventures/adventures.html'><span>Adventures</span></a></li>
-					<li><a href='../fitness/fitness.html'><span>Fitness</span></a></li>
-					<li><a href='../gallery/gallery.html'><span>Gallery</span></a></li>
-					<li class='last'><a href='../contact/contact.html'><span>Contact</span></a></li>
-				</ul>
-				</div>
 
+							<nav id="nav" role="navigation">
+					<a href="#nav" title="Show navigation">Show navigation</a>
+					<a href="#" title="Hide navigation">Hide navigation</a>
+					<ul class="clearfix">
+						<li><a href="../index.html">Home</a></li>
+						<li class="active"><a href="../about/about.html">About</a></li>
+						<li>
+							<a href="../destinations/destinations.html" aria-haspopup="true"><span>Destinations</span></a>
+							<ul>
+								<li><a href="../destinations/sandiego.html">San Diego</a></li>
+								<li><a href="../destinations/costarica.html">Costa Rica</a></li>
+								<li><a href="../destinations/hawaii.html">Hawaii</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="../adventures/adventures.html" aria-haspopup="true"><span>Adventures</span></a>
+							<ul>
+								<li><a href="?webdesign">Web Design</a></li>
+							</ul>
+						</li>
+						<li><a href="../fitness/fitness.html">Fitness</a></li>
+						<li><a href="../gallery/gallery.html">Gallery</a></li>
+						<li><a href="../contact/contact.html">Contact</a></li>
+					</ul>
+				</nav>
+
+				<script src="../assets/js/doubletaptogo.js"></script>
+				<script>
+					$( function()
+					{
+						$( '#nav li:has(ul)' ).doubleTapToGo();
+					});
+				</script>
 					<section class="module parallax parallax-2">
 					</section>
 
@@ -64,32 +86,33 @@ Sarah Conway URI: http://sarahconway.com/
 																	</header>
 																</div>
 															</section>
-															<div class="row">
+														<!--	<div class="row">
 																<div class="12u(mobile)">
-																	<section>
+																	<section class="center">
 																		<div class="featureimage"><img src="../images/offer.png" alt="" /></div>
 																		<p>
-																			Our purpose is to offer more active and affordable guided adventure packages to make it easier for you to explore more things. When you have more, you can create more.Our purpose is to offer more active and affordable guided adventure packages to make it easier for you to explore more things. When you have more, you can create more.Our purpose is to offer more active and affordable guided adventure packages to make it easier for you to explore more things. When you have more, you can create more.Our purpose is to offer more active and affordable guided adventure packages to make it easier for you to explore more things. When you have more, you can create more.Our purpose is to offer more active and affordable guided adventure packages to make it easier for you to explore more things. When you have more, you can create more.Our purpose is to offer more active and affordable guided adventure packages to make it easier for you to explore more things. When you have more, you can create more.
+
 																		</p>
 										              </section>
 																	</div>
-																</div>
+																</div>-->
 																<div class="row">
 																	<div class="12u(mobile)">
 																	<section>
 																		<div class="featureimage"><img src="../images/why.png" alt="" /></div>
 																		<p>
-																			We are passionate about what you are passionate about - exploring new terrain while experiencing & quenching a thirst for life through adventures. We are committed to providing you with more active and affordable adventures that gets you enjoying more of the outdoors. We do this by keeping our costs low, building relationships, supporting locally owned businesses, obtaining unique and rugged accomodations for overnight adventures, and working smarter so you can enjoy the benefits.
+																			Our purpose is to offer more active and affordable guided adventure packages to make it easier for you to explore more things. When you have more, you can create more. We are passionate about what you are passionate about - exploring new terrain whilst experiencing & quenching a thirst for life through adventures. We are committed to providing you with more active and affordable adventures that gets you enjoying more of the outdoors. We do this by keeping our costs low, building relationships, supporting locally owned businesses, obtaining unique and rugged accomodations for overnight adventures, and working smarter so you can enjoy the benefits.
 																		</p>
+																		<h3 style="text-align:center;"><b>Our Partners</b></h3><br>
 																		<p>
 																			<img src="../images/oologo.jpg" class="floatedleftsmall" alt=""/>
 																			<b>We are proud to announce that we donate 5% of sales to the company Outdoor Outreach!</b><br>
-																			<b>Outdoor Outreach's Mission Statement:</b> The mission of <b>Outdoor Outreach</b> is to connect youth to the transformative power of the outdoors. Our vision is that youth everywhere will be inspired by the outdoors to play, learn, serve and share.
+																			<b>Outdoor Outreach's Mission Statement:</b> Our mission is to connect youth to the transformative power of the outdoors. Our vision is that youth everywhere will be inspired by the outdoors to play, learn, serve and share.
 																		</p>
 																		<p>
 																			<img src="../images/tourguideassociation.jpg" class="floatedleftsmall" alt=""/>
-																			<b>We are also proud business associates of the San Diego Tour Guide Company.</b><br>
-																			<b>San Diego Tour Guide's Mission Statement:</b>
+																			<b>We are also proud business associates of the San Diego Professional Tour Guide Association.</b><br>
+																			<b>Mission Statement:</b>
 																			To enhance the visitor's experience in the San Diego region by ensuring a high standard of professionalism within the tour guide industry. (We accomplish this by providing certified tour guides and field staff who are experts in the San Diego region)
 																		</p>
 																	</section>
