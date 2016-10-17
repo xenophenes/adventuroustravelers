@@ -927,6 +927,8 @@ table.default thead {
           top: 100%;
           display: none;
 				}
+
+
 					#nav li:hover ul
 					{
 						display: block;
@@ -940,8 +942,10 @@ table.default thead {
 						#nav li ul a
 						{
 							border-top: 1px solid #040303;
-							padding: 0.5em;
               text-align: center;
+              color: #fff;
+              padding: .5em;
+              font-size: large;
 						}
 							#nav li ul li a:hover,
 							#nav li.active a
